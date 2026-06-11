@@ -18,4 +18,11 @@ Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, SQLite, Tableau
 ## Key Findings
 - Sulfate and pH are the most important features
 - Dataset is imbalanced (1998 unsafe vs 1278 safe samples)
-- Similar ch
+- Similar chemical averages across classes confirmed need for ML
+
+## Model Performance
+| Model | Accuracy |
+|-------|----------|
+| Random Forest (basic) | 67.38% |
+| Random Forest (tuned) | 67.84% |
+| Gradient Boosting | 65.09% |
